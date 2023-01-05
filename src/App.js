@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -24,7 +25,7 @@ export default function App() {
           <Form.Label>Enter your age:</Form.Label>
           <Form.Control type="number" placeholder="Enter your age" />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" className='margintop'>
            Submit
         </Button>
       </Form>
